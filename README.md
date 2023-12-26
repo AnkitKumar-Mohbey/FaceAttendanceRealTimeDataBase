@@ -1,4 +1,4 @@
-# FaceAttendance
+# Real time FaceAttendance System
 Developed a robust Real-Time Face Attendance System using Python, featuring seamless integration with a real-time Firebase database.
 
 Technology Stack:
