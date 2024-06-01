@@ -12,11 +12,7 @@ from firebase_admin import storage
 from datetime import datetime
 
 # Initialize Firebase credentials and services
-cred = credentials.Certificate("serviceAccountKey.json")
-firebase_admin.initialize_app(cred,{
-    'databaseURL':"https://updatefamstwo-default-rtdb.firebaseio.com/",
-    'storageBucket': "updatefamstwo.appspot.com"
-})
+
 
 bucket = storage.bucket()
 
