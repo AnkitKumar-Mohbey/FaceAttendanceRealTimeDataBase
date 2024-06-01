@@ -8,11 +8,7 @@ from firebase_admin import db
 from firebase_admin import  storage
 
 
-cred = credentials.Certificate("serviceAccountKey.json")
-firebase_admin.initialize_app(cred,{
-    'databaseURL':"https://updatefamstwo-default-rtdb.firebaseio.com/",
-    'storageBucket': "updatefamstwo.appspot.com"
-})
+# Initialize Firebase credentials and services USE YOUR OWN
 
 # Importing student images
 folderPath = 'Images'
